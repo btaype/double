@@ -24,7 +24,7 @@ void flot (int numero,string &entero,string &flotante,char &signo){
 	int nunm_cadena= entero.length();
 	if (numero!=0)
 		nunm_cadena--;
-	int biased=(pow(2,11)-1)+nunm_cadena;
+	int biased=(pow(2,10)-1)+nunm_cadena;
 	
 	string agrega="";
 	if (numero!=0)
